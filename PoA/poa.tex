@@ -1,0 +1,58 @@
+\documentclass{article}
+
+%%%
+%FOR TIMELINE
+\usepackage{array, booktabs}
+\usepackage[x11names,table]{xcolor}
+\usepackage{caption}
+\DeclareCaptionFont{red}{\color{Firebrick1}\bfseries\Large}
+
+\newcommand{\foo}{\color{LightSteelBlue2}\makebox[0pt]{\textbullet}\hskip-0.5pt\vrule width 1pt\hspace{\labelsep}}
+%%%
+
+\begin{document}
+\title{Quantum Cryptography: Summer of Science 2024}
+\author{Harshil Solanki\\Roll number: 23B1016\\Mentor: Raunak Gupta}
+\date{\today}
+\maketitle
+
+\section*{Learning Objectives}
+\begin{itemize}
+    \item I see the Summer of Science project as an opportunity to gain insights into the way research is done and how material is presented and organised, while learning new skills and knowledge of Cryptography.
+    \item Particularly, in relation to the topic, I want to dive deep into the prospects of Quantum Cryptography, the work that is done by Scientists till now and all that can possibly be done in the future.
+    \item I want to familiarise myself with the evolving Quantum technology  and gain insights into how Mathematics can be used to incorporate it with Cryptography.
+    \item In the end, it's all to fulfill my curiosity and explore the horizons of Science.
+\end{itemize}
+
+\section*{References}
+\begin{itemize}
+    \item Cryptography and Network Security 3rd Edition - Atul Kahate, McGraw Hill Education (India) Private Limited
+    \item Cryptography and Network Security: {\it Principles and Practice} 7th Edition - William Stallings, Pearson
+    \item Elementary Number Theory 7th Edition - David M. Burton
+    \item Quantum Computation and Quantum Information - Michael A. Nielsen and Isaac L. Chuang
+    \item Quantum Cryptography and Secret-Key Distillation - Gilles Van Assche
+\end{itemize}
+
+%%THE TIMELINE WHOSE STRUCTURE IS COPIED FROM INTERNET
+\begin{table}[h]
+\renewcommand\arraystretch{1.4}\arrayrulecolor{LightSteelBlue3}
+\captionsetup{singlelinecheck=false, font=red, labelfont=sc, labelsep=quad}
+\caption*{PLAN OF ACTION}\vskip -1.5ex
+%Space, right align, 2pt space, Custom vertical rule \foo, 
+\begin{tabular}{@{\,}r <{\hskip 2pt} !{\foo} >{\raggedright\arraybackslash}p{10cm}}
+\toprule
+\addlinespace[1.5ex]
+Week 1 & Mathematical Foundation: (Advanced) Number Theory and Introduction to Cryptography \\
+Week 2 & Classical Cryptography: Historical Ciphers, Symmetric Key Cryptography, Assymetric Key Cryptography \\
+Week 3 & Cryptographic Hash Functions, Digital Signatures and Public Key Infrastructure \\
+Week 4 & Cryptographic Protocols and Information Theory \\
+\textcolor{red}{$23^{rd}$ June} & \textcolor{red}{Mid-Summer Report Submission} \\
+Week 5 & Advanced Cryptographic Concepts: Elliptic Curve and Lattice-based Cryptography\\
+Week 6 & Quantum Computing Basics\\
+Week 7 & Quantum Cryptography: Quantum Key Distribution (QKD) and Post-Quantum Cryptography \\
+Week 8 & Insights into new possibilities \\
+\textcolor{red}{$23^{rd}$ July} & \textcolor{red}{End-Summer Report Submission}\\
+\end{tabular}
+\end{table}
+
+\end{document} 
